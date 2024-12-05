@@ -3,7 +3,7 @@ name: Playwright Tests and Deploy to S3
 on:
   push:
     branches:
-      - playwright-deploy  # Trigger this action only on the playwright-deploy branch
+      - playwright-deploy  # Trigger this action only on the playwright-deploy branch works
 
 jobs:
   playwright-tests:
