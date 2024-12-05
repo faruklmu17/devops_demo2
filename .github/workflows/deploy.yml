@@ -66,3 +66,8 @@ jobs:
       run: |
         aws s3 sync . s3://$S3_BUCKET_NAME --delete --exclude ".git/*" --exclude ".github/*"
 
+    # Step 4: Construct and print the URL of the deployed site
+    - name: Get deployed site URL
+      run: |
+       DEPLOYED_URL="http://$S3_BUCKET_NAME.s3-website-$AWS_REGION.amazonaws.com"
+       echo "Deployed site is accessible at: $DEPLOYED_URL"
