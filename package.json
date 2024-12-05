@@ -1,0 +1,22 @@
+{
+  "name": "devops_demo2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faruklmu17/devops_demo2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faruklmu17/devops_demo2/issues"
+  },
+  "homepage": "https://github.com/faruklmu17/devops_demo2#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1"
+  }
+}
