@@ -69,5 +69,5 @@ jobs:
     # Step 4: Construct and print the URL of the deployed site
     - name: Get deployed site URL
       run: |
-       DEPLOYED_URL="http://${{ secrets.S3_BUCKET_NAME }}.s3-website-${{ secrets.AWS_REGION }}.amazonaws.com"
+       DEPLOYED_URL="http://my-signup-page.s3-website-us-east-2.amazonaws.com"
        echo "Deployed site is accessible at: $DEPLOYED_URL"
